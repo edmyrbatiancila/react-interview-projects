@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 import './styles.css';
 
-export default function StarRating({noOfStars = 5}) {
+export default function StarRating({noOfStars = 5 }) {
     const [rating, setRating] = useState(0);
     const [hover, setHover] = useState(0);
 
@@ -14,7 +14,7 @@ export default function StarRating({noOfStars = 5}) {
         setHover(getCurrentIndex);
     }
 
-    function handleMouseLeave(getCurrentIndex) {
+    function handleMouseLeave() {
         setHover(rating);
     }
 
