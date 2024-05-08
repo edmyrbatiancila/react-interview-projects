@@ -8,9 +8,9 @@ import ImageSlider from './components/image-slider';
 function App() {
   return (
     <div className="App">
-      {/* Accordion component */}
+      {/* Accordion Component */}
       {/* <Accordian /> */}
-      {/* Random color component */}
+      {/* Random Color Component */}
       {/* <RandomColor /> */}
       {/* Star Rating Component */}
       {/* <StarRating /> */}
